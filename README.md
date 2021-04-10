@@ -3,7 +3,7 @@ Get An Ip's Infos (City, Region, Country, ...)
 
 Clone The Repo:
 ```sh
-git clone https://github.com/notkar1m/iplook.git
+git clone https://github.com/notkar1m/ipgrabber.git
 ```
 Usage (Python Is Required):
 ```sh

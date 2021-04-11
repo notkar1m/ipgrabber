@@ -11,7 +11,6 @@ try:
             message_bytes = message.encode('ascii')
             base64_bytes = base64.b64encode(message_bytes)
             base64_message = base64_bytes.decode('ascii')
-            print(base64_message)
             print(re.get(f"https://friendship-quiz.notkar1myt.repl.co/new-link-cmd_url={base64_message}").text)
     elif sys.argv[1].lower() == "old":
         code = sys.argv[2].lower()
